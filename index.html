@@ -1,0 +1,1692 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Futurenet - IT Solutions & Technology clone</title>
+  <!-- font awessome css link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- animation cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+
+  <!-- swiper -->
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+
+  <!-- Css link -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+
+  <!-- offcanvas area start -->
+
+  <div class="offcanvas__area">
+    <div class="offcanvas__wrapper">
+      <div class="offcanvas__close">
+        <button class="offcanvas__close-btn offcanvas-close-btn">
+          <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M11 1L1 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round"></path>
+            <path d="M1 1L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+              stroke-linejoin="round"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="offcanvas__content">
+        <div class="offcanvas__top mb-50 d-flex justify-content-between align-items-center">
+          <div class="offcanvas__logo logo">
+            <a href="index.html">
+              <img src="./assets/logo-black.png" alt="logo">
+            </a>
+          </div>
+        </div>
+        <div class="tp-main-menu-mobile fix d-xl-none mb-40">
+          <nav class="tp-main-menu-content">
+            <ul>
+              <li class="has-dropdown">
+                <a href="index.html">Home<button class="dropdown-toggle-btn"><i class="fas fa-angle-right"></i></button></a>
+                <ul class="submenu">
+                  <li><a href="index.html">Home 1</a></li>
+                  <li><a href="index-2.html">Home 2</a></li>
+                  <li><a href="index-3.html">Home 3</a></li>
+                </ul>
+              </li>
+              <li><a href="about.html">About Us</a></li>
+              <li class="has-dropdown"><a href="service.html">Services<button class="dropdown-toggle-btn"><i class="fas fa-angle-right"></i></button></a>
+                <ul class="submenu">
+                  <li><a href="service.html">Service</a></li>
+                  <li><a href="service-details.html">Service Details</a></li>
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="index.html">Page<button class="dropdown-toggle-btn"><i class="fas fa-angle-right"></i></button></a>
+                <ul class="submenu">
+                  <li><a href="project.html">Project</a></li>
+                  <li><a href="project-details.html">Project Details</a></li>
+                  <li><a href="team.html">Team</a></li>
+                  <li><a href="team-details.html">Team Details</a></li>
+                </ul>
+              </li>
+              <li class="has-dropdown"><a href="blog.html">Blog<button class="dropdown-toggle-btn"><i class="fas fa-angle-right"></i></button></a>
+                <ul class="submenu">
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="blog-details.html">Blog Details</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="offcanvas__contact">
+          <h4 class="offcanvas__title">Contacts</h4>
+          <div class="offcanvas__contact-content d-flex">
+            <div class="offcanvas__contact-content-icon">
+              <i class="fa-sharp fa-solid fa-location-dot"></i>
+            </div>
+            <div class="offcanvas__contact-content-content">
+              <a
+                href="https://www.google.com/maps/search/86+Road+Broklyn+Street,+600+New+York,+USA/@40.6897806,-74.0278086,12z/data=!3m1!4b1">86
+                Road Broklyn Street, 600 </a>
+            </div>
+          </div>
+          <div class="offcanvas__contact-content d-flex">
+            <div class="offcanvas__contact-content-icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="offcanvas__contact-content-content">
+              <a href="mailto:needhelp@company.com"> Needhelp@company.com </a>
+            </div>
+          </div>
+          <div class="offcanvas__contact-content d-flex">
+            <div class="offcanvas__contact-content-icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="offcanvas__contact-content-content">
+              <a href="tel:01310-069824"> +92 666 888 0000</a>
+            </div>
+          </div>
+        </div>
+        <div class="offcanvas__social">
+          <a class="icon facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+          <a class="icon twitter" href="#"><i class="fab fa-twitter"></i></a>
+          <a class="icon youtube" href="#"><i class="fab fa-youtube"></i></a>
+          <a class="icon linkedin" href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="body-overlay"></div>
+
+  <!-- offcanvas area end -->
+
+  <!-- cursor start -->
+
+  <div class="cursor-outline">
+    <div class="cursor-content">View</div>
+  </div>
+
+  <!-- cursor end -->
+
+  <!-- Header -->
+  <header class="tp-header-area tp-header-transparent tp-header-height p-relative" style="height: 171px">
+    <div class="tp-header-top d-none d-xl-block">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xxl-6 col-xl-8">
+            <div class="tp-header-top-info">
+              <ul>
+                <li>
+                  <a href="tel:555-0129"><span><i class="fa-solid fa-phone"></i></span>(629) 555-0129</a>
+                </li>
+                <li>
+                  <a href="mailto:info@example.com"><span><i
+                        class="fa-solid fa-envelope"></i></span>info@example.com</a>
+                </li>
+                <li>
+                  <a href="https://www.google.com/maps/search/6391+Elgin+St,+Wilmington,+DE,+USA/@39.7298967,-75.5645038,13z/data=!3m1!4b1"
+                    target="_blank"><span><i class="fa-sharp fa-solid fa-location-dot"></i></span>6391 Elgin St. Celina,
+                    10299</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xxl-6 col-xl-4">
+            <div class="tp-header-top-right d-flex justify-content-end align-items-center">
+              <div class="header-social d-xxl-block d-none">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="header-sticky" class="tp-header-bottom header__sticky p-relative">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xxl-3 col-xl-3 col-lg-6">
+            <div class="tp-header-main-left p-relative">
+              <div class="tp-header-logo">
+                <a href="index.html">
+                  <img src="./assets/logo.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-6 col-xl-6 d-none d-xl-block">
+            <div class="tp-main-menu-area d-flex align-items-center">
+              <div class="tp-main-menu">
+                <nav class="tp-main-menu-content">
+                  <ul>
+                    <li class="has-dropdown">
+                      <a href="index.html"><span>Home</span></a>
+                      <ul class="submenu">
+                        <li>
+                          <a href="index.html"><span>Home 1</span></a>
+                        </li>
+                        <li>
+                          <a href="index.html"><span>Home 2</span></a>
+                        </li>
+                        <li>
+                          <a href="index.html"><span>Home 3</span></a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="about.html"><span>About Us</span></a>
+                    </li>
+                    <li class="has-dropdown">
+                      <a href="service.html"><span>Services</span></a>
+                      <ul class="submenu">
+                        <li>
+                          <a href="service.html"><span>Service</span></a>
+                        </li>
+                        <li>
+                          <a href="service-details.html"><span>Service
+                              Details</span></a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="has-dropdown">
+                      <a href="index.html"><span>Page</span></a>
+                      <ul class="submenu">
+                        <li>
+                          <a href="project.html"><span>Project</span></a>
+                        </li>
+                        <li>
+                          <a href="project-details.html"><span>Project
+                              Details</span></a>
+                        </li>
+                        <li>
+                          <a href="team.html"><span>Team</span></a>
+                        </li>
+                        <li>
+                          <a href="team-details.html"><span>Team
+                              Details</span></a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="has-dropdown">
+                      <a href="blog.html"><span>Blog</span></a>
+                      <ul class="submenu">
+                        <li>
+                          <a href="blog.html"><span>Blog</span></a>
+                        </li>
+                        <li>
+                          <a href="blog-details.html"><span>Blog
+                              Details</span></a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="contact.html"><span>Contact</span></a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-xl-3 col-lg-6">
+            <div class="tp-header-main-right d-flex align-items-center justify-content-xl-end">
+              <div class="tp-header-contact d-none d-xl-block">
+                <div class="tp-header-contact-inner d-flex align-items-center">
+                  <div class="tp-header-contact-icon">
+                    <span><i class="fa-solid fa-phone"></i></span>
+                  </div>
+                  <div class="tp-header-contact-content">
+                    <p>Need help?</p>
+                    <span><a href="tel:555-0111">(808) 555-0111</a></span>
+                  </div>
+                </div>
+              </div>
+              <div class="tp-header-hamburger-btn d-xl-none offcanvas-open-btn">
+                <button class="hamburger-btn">
+                  <span>
+                    <svg width="29" height="24" viewBox="0 0 29 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0 1.13163C0 0.506972 0.499692 0 1.11538 0H20.4487C21.0644 0 21.5641 0.506972 21.5641 1.13163C21.5641 1.7563 21.0644 2.26327 20.4487 2.26327H1.11538C0.499692 2.26327 0 1.7563 0 1.13163ZM27.8846 10.5619H1.11538C0.499692 10.5619 0 11.0689 0 11.6935C0 12.3182 0.499692 12.8252 1.11538 12.8252H27.8846C28.5003 12.8252 29 12.3182 29 11.6935C29 11.0689 28.5003 10.5619 27.8846 10.5619ZM14.5 21.1238H1.11538C0.499692 21.1238 0 21.6308 0 22.2555C0 22.8801 0.499692 23.3871 1.11538 23.3871H14.5C15.1157 23.3871 15.6154 22.8801 15.6154 22.2555C15.6154 21.6308 15.1157 21.1238 14.5 21.1238Z"
+                        fill="currentColor"></path>
+                    </svg>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Header Emd -->
+
+  <!-- Main -->
+
+  <main>
+    <!-- Hero section -->
+
+    <section class="tp-hero-area tp-hero-height d-flex align-items-center p-relative" data-bg-color="#112046"
+      style="background-color: rgb(17, 32, 70)">
+      <div class="tp-hero-shape">
+        <img class="shape-bg" src="./assets/shape-bg.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="tp-hero-content wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.3s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-hero-content-review d-flex align-items-center mb-40">
+                <div class="tp-hero-content-review-thumb">
+                  <img src="./assets/hero-review.png" alt="" />
+                </div>
+                <div class="tp-hero-content-review-content d-flex">
+                  <h5 class="tp-hero-content-review-title">
+                    <span class="purecounter" data-purecounter-duration="0" data-purecounter-end="320">320</span>
+                    +
+                    <span class="text">Client Review</span>
+                  </h5>
+                </div>
+              </div>
+              <div class="tp-hero-title-wrapper">
+                <h2 class="tp-hero-title">
+                  Empowering your business through
+                  technology
+                </h2>
+              </div>
+              <div class="tp-hero-button-wrapper d-flex flex-wrap">
+                <div class="tp-hero-btn mr-30">
+                  <a class="tp-btn" href="about.html">Learn More
+                    <span><i class="fa-regular fa-circle-right"></i></span></a>
+                </div>
+                <div class="tp-hero-btn-2">
+                  <a class="tp-btn-transparent" href="service.html">Our Services
+                    <span><i class="fa-regular fa-circle-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="tp-hero-thumb p-relative wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.3s;
+                                    animation-name: fadeInUp;
+                                ">
+              <img src="./assets/hero-img.png" alt="" />
+              <div class="tp-hero-thumb-shape">
+                <img class="shape-1" src="./assets/hero-shape-1.png" alt="" />
+                <img class="shape-2" src="./assets/hero-shape-2.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hero section end -->
+
+    <!-- Feature Section Start -->
+
+    <section class="tp-features-area pb-130">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div  id="feature-content" class="tp-features-wrapper wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s" style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.2s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-features-point">
+                <span>01</span>
+              </div>
+              <h4 class="tp-features-title">
+                Innovating the Way we Work
+              </h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the
+                printing
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="tp-features-wrapper wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s" style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.4s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-features-point">
+                <span>02</span>
+              </div>
+              <h4 class="tp-features-title">
+                Mastermind Business Solutions
+              </h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the
+                printing
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="tp-features-wrapper wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s" style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.6s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-features-point">
+                <span>03</span>
+              </div>
+              <h4 class="tp-features-title">
+                HighFlyer Supply Chain Solutions
+              </h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the
+                printing
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="tp-features-wrapper wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s" style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.8s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-features-point">
+                <span>04</span>
+              </div>
+              <h4 class="tp-features-title">
+                Bridging the Gap to a Better Future
+              </h4>
+              <p>
+                Lorem Ipsum is simply dummy text of the
+                printing
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature Section Start -->
+
+    <!-- About Section Start -->
+
+    <section class="tp-about-area p-relative pb-130">
+      <div class="tp-about-shape">
+        <img src="./assets/about-bg.png" alt="" />
+      </div>
+      <div class="container">
+        <div class="row">
+          <div  id="about-left" class="col-lg-6">
+            <div class="tp-about-thumb-wrapper p-relative wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s"
+              style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.3s;
+                                    animation-name: fadeInLeft;
+                                ">
+              <div class="tp-about-counter">
+                <div class="tp-about-counter-inner d-flex align-items-center">
+                  <div class="tp-about-counter-icon">
+                    <img src="./assets/about-3.jpg" alt="" />
+                  </div>
+                  <div class="tp-about-counter-content">
+                    <h4 class="tp-about-counter-title">
+                      <span class="purecounter" data-purecounter-duration="0" data-purecounter-end="5000">5000</span>+
+                    </h4>
+                    <p>Satisfied Clients</p>
+                  </div>
+                </div>
+              </div>
+              <div class="row align-items-end">
+                <div class="col-xxl-6 col-xl-12 col-lg-12 col-md-6">
+                  <div class="tp-about-thumb">
+                    <img src="./assets/about-1.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="col-xxl-6 col-xl-12 col-lg-12 col-md-6">
+                  <div class="tp-about-thumb-2">
+                    <img src="./assets/about-2.jpg" alt="" />
+                    <div class="tp-play-btn">
+                      <a class="play-btn popup-video" href="https://www.youtube.com/watch?v=go7QYaQR494"><i
+                          class="fa-solid fa-play"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="about-right" class="col-lg-6">
+            <div class="tp-about-wrapper wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.3s;
+                                    animation-name: fadeInRight;
+                                ">
+              <div class="tp-about-title-wrapper">
+                <span class="tp-section-title-pre">ABOUT US</span>
+                <h3 class="tp-section-title">
+                  Innovative solutions for a changing
+                  world
+                </h3>
+              </div>
+              <p>
+                Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry Loreaim
+                Ipsum has been the industry's standard
+                dummyLorem Ipsum is an oi simply dummy text
+                of the printing and typesetting industry.
+              </p>
+              <div class="tp-about-wrapper-list">
+                <ul>
+                  <li>
+                    <span><i class="fas fa-arrow-right"></i></span>
+                    Mistakes To Avoid to the dum
+                  </li>
+                  <li>
+                    <span><i class="fas fa-arrow-right"></i></span>
+                    Avoid to the dumy mistakes
+                  </li>
+                  <li>
+                    <span><i class="fas fa-arrow-right"></i></span>
+                    Your Startup industry stan
+                  </li>
+                  <li>
+                    <span><i class="fas fa-arrow-right"></i></span>
+                    Our Startup industry Here
+                  </li>
+                </ul>
+              </div>
+              <div class="tp-about-btn">
+                <a class="tp-btn" href="about.html">Discover More
+                  <span><i class="fa-regular fa-plus"></i></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section End -->
+
+    <!-- Service section start -->
+
+    <section class="tp-service-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div id="service-content" class="tp-service-title-wrapper mb-115 text-center">
+              <span class="tp-section-title-pre">Services we’re offering</span>
+              <h3 class="tp-section-title">
+                Get the Most Out of Our <br />
+                Advanced Services
+              </h3>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="tp-service-wrapper wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.3s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-service-wrapper-icon">
+                <span>
+                  <i class="fas fa-computer"></i>
+                </span>
+              </div>
+              <h3 class="tp-service-title">
+                <a href="service-details.html">Software</a>
+              </h3>
+              <p>
+                Lorem Ipsum is simply is dumiom yadvice
+                design in us repairs and the text Lorem in
+                Ipsumsimply design
+              </p>
+              <a class="tp-service-btn" href="service-details.html">Read More
+                <span><i class="fa-solid fa-circle-plus"></i></span></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="tp-service-wrapper wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s" style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.5s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-service-wrapper-icon">
+                <span>
+                  <i class="fas fa-bug"></i>
+                </span>
+              </div>
+              <h3 class="tp-service-title">
+                <a href="service-details.html">Networking</a>
+              </h3>
+              <p>
+                Lorem Ipsum is simply is dumiom yadvice
+                design in us repairs and the text Lorem in
+                Ipsumsimply design
+              </p>
+              <a class="tp-service-btn" href="service-details.html">Read More
+                <span><i class="fa-solid fa-circle-plus"></i></span></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="tp-service-wrapper wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s" style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.7s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-service-wrapper-icon">
+                <span class="">
+                  <i class="fas fa-laptop-code"></i>
+                </span>
+              </div>
+              <h3 class="tp-service-title">
+                <a href="service-details.html">Developing</a>
+              </h3>
+              <p>
+                Lorem Ipsum is simply is dumiom yadvice
+                design in us repairs and the text Lorem in
+                Ipsumsimply design
+              </p>
+              <a class="tp-service-btn" href="service-details.html">Read More
+                <span><i class="fa-solid fa-circle-plus"></i></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service section end -->
+
+    <!-- Team section start -->
+
+    <section class="tp-team-area pt-200 pb-100" data-bg-color="#F4F5FA" style="background-color: rgb(244, 245, 250)">
+      <div class="tp-team-shape">
+        <img src="./assets/team-bg.png" alt="" />
+      </div>
+      <div class="container">
+        <div id="team-content" class="row">
+          <div class="col-lg-12">
+            <div class="tp-team-title-wrapper text-center mb-60">
+              <span class="tp-section-title-pre">Meet our experts</span>
+              <h3 class="tp-section-title">
+                Our Tech Specialists
+              </h3>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="tp-team-item-wrapper text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s"
+              style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.2s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-team-item-thumb">
+                <a href="team-details.html"><img src="./assets/member-1.jpg" alt="" /></a>
+              </div>
+              <div class="tp-team-item-content">
+                <h3 class="tp-team-title">
+                  <a href="team-details.html">Guy Hawkins</a>
+                </h3>
+                <p class="tp-team-description">Developer</p>
+                <div class="tp-team-item-social">
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="tp-team-item-wrapper text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s"
+              style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.4s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-team-item-thumb">
+                <a href="team-details.html"><img src="./assets/member-2.jpg" alt="" /></a>
+              </div>
+              <div class="tp-team-item-content">
+                <h3 class="tp-team-title">
+                  <a href="team-details.html">Albert Flores</a>
+                </h3>
+                <p class="tp-team-description">Designer</p>
+                <div class="tp-team-item-social">
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="tp-team-item-wrapper text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s"
+              style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.6s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-team-item-thumb">
+                <a href="team-details.html"><img src="./assets/member-3.jpg" alt="" /></a>
+              </div>
+              <div class="tp-team-item-content">
+                <h3 class="tp-team-title">
+                  <a href="team-details.html">Devon Lane</a>
+                </h3>
+                <p class="tp-team-description">Finance</p>
+                <div class="tp-team-item-social">
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="tp-team-item-wrapper text-center mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".8s"
+              style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.8s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-team-item-thumb">
+                <a href="team-details.html"><img src="./assets/member-4.jpg" alt="" /></a>
+              </div>
+              <div class="tp-team-item-content">
+                <h3 class="tp-team-title">
+                  <a href="team-details.html">Ralph Edwards</a>
+                </h3>
+                <p class="tp-team-description">Merketing</p>
+                <div class="tp-team-item-social">
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team section end -->
+
+    <!-- contact section start -->
+
+    <section class="tp-contact-area pt-130 pb-130">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="tp-contact-wrapper">
+              <div class="tp-contact-title-wrapper mb-55">
+                <span class="tp-section-title-pre">GET IN TOUCH</span>
+                <h3 class="tp-section-title">
+                  Start Your Journey ?
+                </h3>
+              </div>
+
+              <form class="tp-contact-form">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="label">Your Name</label>
+                      <input type="text" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="label">Your Email</label>
+                      <input type="email" class="form-control" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="label">Phone Number</label>
+                      <input type="text" class="form-control" />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="label">Subject</label>
+                      <input type="text" class="form-control" />
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <label class="label">Message</label>
+                      <textarea name="message"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <button class="tp-btn" type="submit">
+                        Submit Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div id="content-right" class="col-lg-6">
+            <div class="tp-contact-thumb-wrapper p-relative wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s"
+              style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.3s;
+                                    animation-name: fadeInRight;
+                                ">
+              <div class="tp-contact-thumb-shape">
+                <img class="shape-1" src="./assets/contact-shape-1.png" alt="" />
+                <img class="shape-2" src="./assets/contact-shape-2.png" alt="" />
+                <img class="shape-3" src="./assets/contact-shape-3.png" alt="" />
+              </div>
+              <img src="./assets/contact-img.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section end -->
+
+    <!-- counter section start -->
+
+    <section class="tp-counter-area p-relative pb-130">
+      <div class="tp-counter-bg"></div>
+      <div class="container">
+        <div class="tp-counter-wrapper">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="tp-counter-item d-flex mb-30">
+                <div class="tp-counter-item-icon">
+                  <span>
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M37.1126 25.6176C36.2815 25.6176 35.574 26.1594 35.3242 26.9089H33.6446L31.4727 24.737C31.3614 24.6257 31.2105 24.5663 31.0522 24.5639H29.667V20.5937H35.3044C35.5542 21.3432 36.2617 21.8849 37.0928 21.8849C38.1318 21.8849 38.9777 21.0389 38.9777 20C38.9777 18.9611 38.1318 18.1151 37.0928 18.1151C36.2617 18.1151 35.5542 18.6568 35.3044 19.4063H29.667V15.4361H31.0522C31.2105 15.4337 31.3589 15.3743 31.4727 15.263L33.6446 13.0911H35.3242C35.574 13.8406 36.2815 14.3824 37.1126 14.3824C38.1515 14.3824 38.9975 13.5364 38.9975 12.4975C38.9975 11.4585 38.1515 10.6126 37.1126 10.6126C36.2815 10.6126 35.574 11.1543 35.3242 11.9038H33.3997C33.2414 11.9038 33.0905 11.9656 32.9792 12.0769L30.8073 14.2488H29.667V10.9242C29.667 10.5952 29.4023 10.3306 29.0733 10.3306H25.7487V9.19021L27.9206 7.01836C28.0319 6.90704 28.0937 6.75615 28.0937 6.59784V4.67335C28.8432 4.42351 29.385 3.71605 29.385 2.88491C29.385 1.84598 28.539 1 27.5001 1C26.4611 1 25.6152 1.84598 25.6152 2.88491C25.6152 3.71605 26.1569 4.42351 26.9064 4.67335V6.35295L24.7345 8.5248C24.6232 8.63612 24.5639 8.78701 24.5614 8.94532V10.3306H20.5937V4.69314C21.3432 4.4433 21.8849 3.73584 21.8849 2.9047C21.8849 1.86577 21.0389 1.01979 20 1.01979C18.9611 1.01979 18.1151 1.86577 18.1151 2.9047C18.1151 3.73584 18.6568 4.4433 19.4063 4.69314V10.3306H15.4361V8.94532C15.4337 8.78701 15.3743 8.63859 15.263 8.5248L13.0911 6.35295V4.67335C13.8406 4.42351 14.3824 3.71605 14.3824 2.88491C14.3824 1.84598 13.5364 1 12.4975 1C11.4585 1 10.6126 1.84598 10.6126 2.88491C10.6126 3.71605 11.1543 4.42351 11.9038 4.67335V6.59784C11.9038 6.75615 11.9656 6.90704 12.0769 7.01836L14.2488 9.19021V10.3306H10.9242C10.5952 10.3306 10.3306 10.5952 10.3306 10.9242V14.2488H9.19021L7.01836 12.0769C6.90704 11.9656 6.75615 11.9038 6.59784 11.9038H4.67335C4.42351 11.1543 3.71605 10.6126 2.88491 10.6126C1.84598 10.6126 1 11.4585 1 12.4975C1 13.5364 1.84598 14.3824 2.88491 14.3824C3.71605 14.3824 4.42351 13.8406 4.67335 13.0911H6.35295L8.5248 15.263C8.63612 15.3743 8.78948 15.4361 8.94532 15.4361H10.3306V19.4063H4.69314C4.4433 18.6568 3.73584 18.1151 2.9047 18.1151C1.86577 18.1151 1.01979 18.9611 1.01979 20C1.01979 21.0389 1.86577 21.8849 2.9047 21.8849C3.73584 21.8849 4.4433 21.3432 4.69314 20.5937H10.3306V24.5639H8.94532C8.78701 24.5663 8.63612 24.6257 8.5248 24.737L6.35295 26.9089H4.67335C4.42351 26.1594 3.71605 25.6176 2.88491 25.6176C1.84598 25.6176 1 26.4636 1 27.5025C1 28.5415 1.84598 29.3874 2.88491 29.3874C3.71605 29.3874 4.42351 28.8457 4.67335 28.0962H6.59784C6.75615 28.0962 6.90704 28.0344 7.01836 27.9231L9.19021 25.7512H10.3306V29.0758C10.3306 29.4048 10.5952 29.6694 10.9242 29.6694H14.2488V30.8098L12.0769 32.9816C11.9656 33.093 11.9038 33.2439 11.9038 33.4022V35.3266C11.1543 35.5765 10.6126 36.2839 10.6126 37.1151C10.6126 38.154 11.4585 39 12.4975 39C13.5364 39 14.3824 38.154 14.3824 37.1151C14.3824 36.2839 13.8406 35.5765 13.0911 35.3266V33.647L15.263 31.4752C15.3743 31.3639 15.4337 31.213 15.4361 31.0547V29.6694H19.4063V35.3069C18.6568 35.5567 18.1151 36.2642 18.1151 37.0953C18.1151 38.1342 18.9611 38.9802 20 38.9802C21.0389 38.9802 21.8849 38.1342 21.8849 37.0953C21.8849 36.2642 21.3432 35.5567 20.5937 35.3069V29.6694H24.5639V31.0547C24.5663 31.213 24.6257 31.3639 24.737 31.4752L26.9089 33.647V35.3266C26.1594 35.5765 25.6176 36.2839 25.6176 37.1151C25.6176 38.154 26.4636 39 27.5025 39C28.5415 39 29.3874 38.154 29.3874 37.1151C29.3874 36.2839 28.8457 35.5765 28.0962 35.3266V33.4022C28.0962 33.2439 28.0344 33.093 27.9231 32.9816L25.7512 30.8098V29.6694H29.0758C29.4048 29.6694 29.6694 29.4048 29.6694 29.0758V25.7512H30.8098L32.9816 27.9231C33.093 28.0344 33.2439 28.0962 33.4022 28.0962H35.3266C35.5765 28.8457 36.2839 29.3874 37.1151 29.3874C38.154 29.3874 39 28.5415 39 27.5025C39 26.4636 38.1515 25.6176 37.1126 25.6176ZM37.0953 19.3024C37.4787 19.3024 37.7929 19.6141 37.7929 20C37.7929 20.3834 37.4787 20.6976 37.0953 20.6976C36.7119 20.6976 36.3977 20.3859 36.3977 20C36.3977 19.6166 36.7119 19.3024 37.0953 19.3024ZM37.1126 11.7999C37.496 11.7999 37.8102 12.1116 37.8102 12.4975C37.8102 12.8833 37.4985 13.195 37.1126 13.195C36.7292 13.195 36.4151 12.8833 36.4151 12.4975C36.4151 12.1116 36.7292 11.7999 37.1126 11.7999ZM26.805 2.88738C26.805 2.50397 27.1167 2.18982 27.5025 2.18982C27.8884 2.18982 28.2001 2.5015 28.2001 2.88738C28.2001 3.27327 27.8884 3.58495 27.5025 3.58495C27.1167 3.58495 26.805 3.2708 26.805 2.88738ZM19.3024 2.9047C19.3024 2.52129 19.6141 2.20713 20 2.20713C20.3859 2.20713 20.6976 2.52129 20.6976 2.9047C20.6976 3.28811 20.3859 3.60227 20 3.60227C19.6141 3.60227 19.3024 3.28811 19.3024 2.9047ZM11.7999 2.88738C11.7999 2.50397 12.1116 2.18982 12.4975 2.18982C12.8809 2.18982 13.195 2.5015 13.195 2.88738C13.195 3.27327 12.8833 3.58495 12.4975 3.58495C12.114 3.58495 11.7999 3.2708 11.7999 2.88738ZM2.88738 13.195C2.50397 13.195 2.18982 12.8833 2.18982 12.4975C2.18982 12.1116 2.5015 11.7999 2.88738 11.7999C3.27327 11.7999 3.58495 12.1116 3.58495 12.4975C3.58495 12.8833 3.2708 13.195 2.88738 13.195ZM2.9047 20.6976C2.52129 20.6976 2.20713 20.3859 2.20713 20C2.20713 19.6166 2.52129 19.3024 2.9047 19.3024C3.28811 19.3024 3.60227 19.6141 3.60227 20C3.60227 20.3834 3.28811 20.6976 2.9047 20.6976ZM2.88738 28.1976C2.50397 28.1976 2.18982 27.886 2.18982 27.5001C2.18982 27.1142 2.5015 26.8025 2.88738 26.8025C3.27327 26.8025 3.58495 27.1142 3.58495 27.5001C3.58495 27.886 3.2708 28.1976 2.88738 28.1976ZM13.195 37.1126C13.195 37.496 12.8833 37.8102 12.4975 37.8102C12.114 37.8102 11.7999 37.4985 11.7999 37.1126C11.7999 36.7292 12.1116 36.4151 12.4975 36.4151C12.8833 36.4151 13.195 36.7292 13.195 37.1126ZM20.6976 37.0953C20.6976 37.4787 20.3859 37.7929 20 37.7929C19.6141 37.7929 19.3024 37.4787 19.3024 37.0953C19.3024 36.7119 19.6141 36.3977 20 36.3977C20.3859 36.3977 20.6976 36.7119 20.6976 37.0953ZM28.1976 37.1126C28.1976 37.496 27.886 37.8102 27.5001 37.8102C27.1142 37.8102 26.8025 37.4985 26.8025 37.1126C26.8025 36.7292 27.1142 36.4151 27.5001 36.4151C27.886 36.4151 28.1976 36.7292 28.1976 37.1126ZM28.4821 28.4821H25.1575H20H14.8425H11.5179V25.1575V20V14.8425V11.5179H14.8425H20H25.1575H28.4821V14.8425V20V25.1575V28.4821ZM37.1126 28.1976C36.7292 28.1976 36.4151 27.886 36.4151 27.5001C36.4151 27.1142 36.7267 26.8025 37.1126 26.8025C37.496 26.8025 37.8102 27.1142 37.8102 27.5001C37.8102 27.886 37.4985 28.1976 37.1126 28.1976Z"
+                        fill="white"></path>
+                      <path
+                        d="M26.6026 12.8047H13.3984C13.0694 12.8047 12.8047 13.0694 12.8047 13.3984V26.6026C12.8047 26.9316 13.0694 27.1963 13.3984 27.1963H26.6026C26.9316 27.1963 27.1963 26.9316 27.1963 26.6026V13.3984C27.1963 13.0694 26.9316 12.8047 26.6026 12.8047ZM26.009 26.009H13.992V13.992H26.009V26.009Z"
+                        fill="white"></path>
+                    </svg>
+                  </span>
+                </div>
+                <div class="tp-counter-item-content">
+                  <p>Team member</p>
+                  <h4 class="tp-counter-title">
+                    <span class="purecounter" data-purecounter-duration="0" data-purecounter-end="200">200</span>+
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="tp-counter-item d-flex mb-30">
+                <div class="tp-counter-item-icon">
+                  <span>
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M38.043 32.7449C38.3842 32.7449 38.6587 33.022 38.6587 33.3607C38.6587 34.8667 38.0712 36.283 37.0064 37.3477C35.9417 38.4125 34.5254 39 33.0194 39H6.98307C5.47703 39 4.06078 38.4125 2.99604 37.3477C1.93129 36.283 1.34375 34.8667 1.34375 33.3607C1.34375 33.1965 1.40789 33.04 1.52335 32.9245C1.6388 32.8091 1.79531 32.7449 1.95951 32.7449H3.21155V13.4255C3.21155 12.6968 3.80422 12.1042 4.53287 12.1042H13.2459V10.6187L10.6366 8.00939C10.5211 7.89393 10.457 7.73743 10.457 7.57322V5.21538C9.56926 4.95112 8.92015 4.12754 8.92015 3.15259C8.92015 1.96469 9.88484 1 11.0727 1C12.2606 1 13.2253 1.96469 13.2253 3.15259C13.2253 4.12497 12.5762 4.94855 11.6885 5.21538V7.31922L14.2978 9.92593C14.4132 10.0414 14.4799 10.2005 14.4799 10.3647V12.1042H19.3855V5.23847C18.4978 4.97164 17.8486 4.14807 17.8486 3.17568C17.8486 1.98778 18.8133 1.02309 20.0012 1.02309C21.1891 1.02309 22.1538 1.98778 22.1538 3.17568C22.1538 4.14807 21.5047 4.97164 20.617 5.23847V12.1067H25.5251V10.3672C25.5251 10.203 25.5918 10.044 25.7073 9.9285L28.314 7.31922V5.21538C27.4263 4.95112 26.7771 4.12754 26.7771 3.15259C26.7771 1.96469 27.7418 1 28.9297 1C30.1176 1 31.0823 1.96469 31.0823 3.15259C31.0823 4.12497 30.4332 4.94855 29.5455 5.21538V7.57322C29.5455 7.73743 29.4814 7.89393 29.3659 8.00939L26.7566 10.6187V12.1042H35.4696C36.1983 12.1042 36.7909 12.6968 36.7909 13.4255V32.7449H38.043ZM37.3836 33.9764H24.622L24.2166 35.4312C24.1422 35.698 23.901 35.8802 23.6239 35.8802H16.3785C16.1014 35.8802 15.8603 35.6954 15.7859 35.4312L15.3805 33.9764H2.61888C2.91907 36.1162 4.76121 37.7685 6.98307 37.7685H33.0168C34.1945 37.7685 35.3003 37.3092 36.1341 36.478C36.8217 35.7929 37.2527 34.9206 37.3836 33.9764ZM35.5594 32.7449V13.4255C35.5594 13.3767 35.5184 13.3357 35.4696 13.3357H26.1434C26.1409 13.3357 26.1409 13.3357 26.1383 13.3357C26.1357 13.3357 26.1357 13.3357 26.1332 13.3357H20.0038C20.0012 13.3357 20.0012 13.3357 19.9987 13.3357C19.9961 13.3357 19.9961 13.3357 19.9935 13.3357H13.8667C13.8667 13.3357 13.8642 13.3357 13.8616 13.3357C13.859 13.3357 13.859 13.3357 13.8565 13.3357H4.53287C4.48412 13.3357 4.44307 13.3767 4.44307 13.4255V32.7449H15.8474C16.1245 32.7449 16.3657 32.9296 16.4401 33.1965L16.8455 34.6512H23.157L23.5624 33.1965C23.6368 32.9296 23.878 32.7449 24.155 32.7449H35.5594ZM29.8508 3.15515C29.8508 2.64715 29.4377 2.23408 28.9297 2.23408C28.4217 2.23408 28.0087 2.64715 28.0087 3.15515C28.0087 3.66316 28.4217 4.07623 28.9297 4.07623C29.4377 4.07623 29.8508 3.66316 29.8508 3.15515ZM20.9223 3.17568C20.9223 2.66768 20.5092 2.25461 20.0012 2.25461C19.4932 2.25461 19.0802 2.66768 19.0802 3.17568C19.0802 3.68368 19.4932 4.09675 20.0012 4.09675C20.5092 4.09675 20.9223 3.68368 20.9223 3.17568ZM11.9938 3.15515C11.9938 2.64715 11.5807 2.23408 11.0727 2.23408C10.5647 2.23408 10.1517 2.64715 10.1517 3.15515C10.1517 3.66316 10.5647 4.07623 11.0727 4.07623C11.5807 4.07623 11.9938 3.66316 11.9938 3.15515Z"
+                        fill="white"></path>
+                      <path
+                        d="M32.3754 15.9609C32.7167 15.9609 32.9912 16.238 32.9912 16.5767C32.9912 16.9179 32.7141 17.1925 32.3754 17.1925H19.1392C18.798 17.1925 18.5234 16.9179 18.5234 16.5767C18.5234 16.2355 18.798 15.9609 19.1392 15.9609H32.3754Z"
+                        fill="white"></path>
+                      <path
+                        d="M32.3754 19.1953C32.7167 19.1953 32.9912 19.4698 32.9912 19.8111C32.9912 20.1523 32.7141 20.4268 32.3754 20.4268H19.1392C18.798 20.4268 18.5234 20.1497 18.5234 19.8111C18.5234 19.4698 18.798 19.1953 19.1392 19.1953H32.3754Z"
+                        fill="white"></path>
+                      <path
+                        d="M32.3754 22.4297C32.7167 22.4297 32.9912 22.7068 32.9912 23.0454C32.9912 23.3867 32.7141 23.6612 32.3754 23.6612H19.1392C18.798 23.6612 18.5234 23.3867 18.5234 23.0454C18.5234 22.7042 18.798 22.4297 19.1392 22.4297H32.3754Z"
+                        fill="white"></path>
+                      <path
+                        d="M32.3849 25.6641C32.7261 25.6641 33.0006 25.9386 33.0006 26.2798C33.0006 26.6211 32.7235 26.8956 32.3849 26.8956H7.63138C7.29272 26.8956 7.01562 26.6185 7.01562 26.2798C7.01562 25.9386 7.29272 25.6641 7.63138 25.6641H32.3849Z"
+                        fill="white"></path>
+                      <path
+                        d="M32.3849 28.8984C32.7261 28.8984 33.0006 29.1755 33.0006 29.5142C33.0006 29.8529 32.7235 30.13 32.3849 30.13H7.63138C7.29272 30.13 7.01562 29.8529 7.01562 29.5142C7.01562 29.1755 7.29272 28.8984 7.63138 28.8984H32.3849Z"
+                        fill="white"></path>
+                      <path
+                        d="M14.4791 16.5767V23.0473C14.4791 23.3885 14.202 23.6631 13.8634 23.6631H7.63138C7.29272 23.6631 7.01562 23.3885 7.01562 23.0473V16.5767C7.01562 16.2355 7.29272 15.9609 7.63138 15.9609H13.8634C14.202 15.9609 14.4791 16.2355 14.4791 16.5767ZM13.2476 22.429V17.1925H8.24714V22.4315L13.2476 22.429Z"
+                        fill="white"></path>
+                    </svg>
+                  </span>
+                </div>
+                <div class="tp-counter-item-content">
+                  <p>Complete project</p>
+                  <h4 class="tp-counter-title">
+                    <span class="purecounter" data-purecounter-duration="0" data-purecounter-end="10">10</span>k+
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="tp-counter-item d-flex mb-30">
+                <div class="tp-counter-item-icon">
+                  <span>
+                    <i class="fas fa-camera"></i>
+                  </span>
+                </div>
+                <div class="tp-counter-item-content">
+                  <p>Winning award</p>
+                  <h4 class="tp-counter-title">
+                    <span class="purecounter" data-purecounter-duration="0" data-purecounter-end="20">20</span>+
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="tp-counter-item d-flex mb-30">
+                <div class="tp-counter-item-icon">
+                  <span>
+                    <i class="fas fa-comment"></i>
+                  </span>
+                </div>
+                <div class="tp-counter-item-content">
+                  <p>Client review</p>
+                  <h4 class="tp-counter-title">
+                    <span class="purecounter" data-purecounter-duration="0" data-purecounter-end="900">900</span>+
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- counter section end -->
+
+    <!-- project section start -->
+
+    <section class="tp-project-area p-relative pb-130">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="tp-project-title-wrapper mb-85 text-center">
+              <span class="tp-section-title-pre">Work gallery</span>
+              <h3 class="tp-section-title">
+                View our most recent <br />
+                projects
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="tp-project-box wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" style="
+                            visibility: visible;
+                            animation-duration: 1s;
+                            animation-delay: 0.3s;
+                            animation-name: fadeInUp;
+                        ">
+          <div
+            class="tp-project-active swiper-container swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
+            <div class="swiper-wrapper" id="swiper-wrapper-2da1b91a622c1e17" aria-live="polite" style="
+                                    transform: translate3d(-1340px, 0px, 0px);
+                                    transition-duration: 0ms;
+                                ">
+              <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                style="width: 310px; margin-right: 25px" role="group" aria-label="2 / 6" data-swiper-slide-index="0">
+                <div class="tp-project-item-wrapper">
+                  <div class="tp-project-item-thumb p-relative">
+                    <a href="project-details.html"><img src="./assets/img-1.jpg" alt="" /></a>
+                    <div class="tp-project-item-content d-flex align-items-center">
+                      <a href="project-details.html"><span><i class="fas fa-angle-right"></i></span></a>
+                      <h5 class="tp-project-title">
+                        <a href="project-details.html">Tecnology Farms</a>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next"
+                style="width: 310px; margin-right: 25px" role="group" aria-label="3 / 6" data-swiper-slide-index="1">
+                <div class="tp-project-item-wrapper">
+                  <div class="tp-project-item-thumb p-relative">
+                    <a href="project-details.html"><img src="./assets/img-2.jpg" alt="" /></a>
+                    <div class="tp-project-item-content d-flex align-items-center">
+                      <a href="project-details.html"><span><i class="fas fa-angle-right"></i></span></a>
+                      <h5 class="tp-project-title">
+                        <a href="project-details.html">Software Farms</a>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-duplicate" style="width: 310px; margin-right: 25px" role="group"
+                aria-label="4 / 6" data-swiper-slide-index="2">
+                <div class="tp-project-item-wrapper">
+                  <div class="tp-project-item-thumb p-relative">
+                    <a href="project-details.html"><img src="./assets/img-3.jpg" alt="" /></a>
+                    <div class="tp-project-item-content d-flex align-items-center">
+                      <a href="project-details.html"><span><i class="fas fa-angle-right"></i></span></a>
+                      <h5 class="tp-project-title">
+                        <a href="project-details.html">Develop Farms</a>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
+                style="width: 310px; margin-right: 25px" role="group" aria-label="5 / 6" data-swiper-slide-index="3">
+                <div class="tp-project-item-wrapper">
+                  <div class="tp-project-item-thumb p-relative">
+                    <a href="project-details.html"><img src="./assets/img-4.jpg" alt="" /></a>
+                    <div class="tp-project-item-content d-flex align-items-center">
+                      <a href="project-details.html"><span><i class="fas fa-angle-right"></i></span></a>
+                      <h5 class="tp-project-title">
+                        <a href="project-details.html">Design Farms</a>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-active" style="width: 310px; margin-right: 25px" role="group"
+                aria-label="2 / 6" data-swiper-slide-index="0">
+                <div class="tp-project-item-wrapper">
+                  <div class="tp-project-item-thumb p-relative">
+                    <a href="project-details.html"><img src="./assets/img-1.jpg" alt="" /></a>
+                    <div class="tp-project-item-content d-flex align-items-center">
+                      <a href="project-details.html"><span><i class="fas fa-angle-right"></i></span></a>
+                      <h5 class="tp-project-title">
+                        <a href="project-details.html">Tecnology Farms</a>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-next" style="width: 310px; margin-right: 25px" role="group"
+                aria-label="3 / 6" data-swiper-slide-index="1">
+                <div class="tp-project-item-wrapper">
+                  <div class="tp-project-item-thumb p-relative">
+                    <a href="project-details.html"><img src="./assets/img-2.jpg" alt="" /></a>
+                    <div class="tp-project-item-content d-flex align-items-center">
+                      <a href="project-details.html"><span><i class="fas fa-angle-right"></i></span></a>
+                      <h5 class="tp-project-title">
+                        <a href="project-details.html">Software Farms</a>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide" style="width: 310px; margin-right: 25px" role="group" aria-label="4 / 6"
+                data-swiper-slide-index="2">
+                <div class="tp-project-item-wrapper">
+                  <div class="tp-project-item-thumb p-relative">
+                    <a href="project-details.html"><img src="./assets/img-3.jpg" alt="" /></a>
+                    <div class="tp-project-item-content d-flex align-items-center">
+                      <a href="project-details.html"><span><i class="fas fa-angle-right"></i></span></a>
+                      <h5 class="tp-project-title">
+                        <a href="project-details.html">Develop Farms</a>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-duplicate-prev" style="width: 310px; margin-right: 25px"
+                role="group" aria-label="5 / 6" data-swiper-slide-index="3">
+                <div class="tp-project-item-wrapper">
+                  <div class="tp-project-item-thumb p-relative">
+                    <a href="project-details.html"><img src="./assets/img-4.jpg" alt="" /></a>
+                    <div class="tp-project-item-content d-flex align-items-center">
+                      <a href="project-details.html"><span><i class="fas fa-angle-right"></i></span></a>
+                      <h5 class="tp-project-title">
+                        <a href="project-details.html">Design Farms</a>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                style="width: 310px; margin-right: 25px" role="group" aria-label="2 / 6" data-swiper-slide-index="0">
+                <div class="tp-project-item-wrapper">
+                  <div class="tp-project-item-thumb p-relative">
+                    <a href="project-details.html"><img src="./assets/img-1.jpg" alt="" /></a>
+                    <div class="tp-project-item-content d-flex align-items-center">
+                      <a href="project-details.html"><span><i class="fas fa-angle-right"></i></span></a>
+                      <h5 class="tp-project-title">
+                        <a href="project-details.html">Tecnology Farms</a>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next"
+                style="width: 310px; margin-right: 25px" role="group" aria-label="3 / 6" data-swiper-slide-index="1">
+                <div class="tp-project-item-wrapper">
+                  <div class="tp-project-item-thumb p-relative">
+                    <a href="project-details.html"><img src="./assets/img-2.jpg" alt="" /></a>
+                    <div class="tp-project-item-content d-flex align-items-center">
+                      <a href="project-details.html"><span><i class="fas fa-angle-right"></i></span></a>
+                      <h5 class="tp-project-title">
+                        <a href="project-details.html">Software Farms</a>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-duplicate" style="width: 310px; margin-right: 25px" role="group"
+                aria-label="4 / 6" data-swiper-slide-index="2">
+                <div class="tp-project-item-wrapper">
+                  <div class="tp-project-item-thumb p-relative">
+                    <a href="project-details.html"><img src="./assets/img-3.jpg" alt="" /></a>
+                    <div class="tp-project-item-content d-flex align-items-center">
+                      <a href="project-details.html"><span><i class="fas fa-angle-right"></i></span></a>
+                      <h5 class="tp-project-title">
+                        <a href="project-details.html">Develop Farms</a>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide swiper-slide-duplicate" style="width: 310px; margin-right: 25px" role="group"
+                aria-label="5 / 6" data-swiper-slide-index="3">
+                <div class="tp-project-item-wrapper">
+                  <div class="tp-project-item-thumb p-relative">
+                    <a href="project-details.html"><img src="./assets/img-4.jpg" alt="" /></a>
+                    <div class="tp-project-item-content d-flex align-items-center">
+                      <a href="project-details.html"><span><i class="fas fa-angle-right"></i></span></a>
+                      <h5 class="tp-project-title">
+                        <a href="project-details.html">Design Farms</a>
+                      </h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- project section end -->
+
+    <!-- process section start -->
+
+    <section class="tp-process-area pb-130">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8">
+            <div class="tp-process-title-wrapper mb-100">
+              <span class="tp-section-title-pre">Our simple process</span>
+              <h3 class="tp-section-title">
+                Follow our iT Process step-by-step
+              </h3>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="tp-process-btn mb-85 text-start text-lg-end">
+              <a class="tp-btn" href="">View All Process
+                <span><i class="fa-regular fa-plus"></i></span></a>
+            </div>
+          </div>
+          <div class="col-lg-3 process-icon-container col-md-6 col-sm-6 cursor-view">
+            <div class="tp-process-item-wrapper p-relative mb-30 wow fadeInUp" data-wow-duration="1s"
+              data-wow-delay=".2s" style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.2s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-process-item-thumb">
+                <img src="./assets/process-img-1.jpg" alt="" />
+                <div class="tp-process-item-point bg-white">
+                  <h4 class="tp-process-item-point-number">
+                    01
+                  </h4>
+                </div>
+              </div>
+              <div class="tp-process-item-content text-center">
+                <div class="tp-process-item-content-icon">
+                  <span>
+                    <i class="fas fa-headphones"></i>
+                  </span>
+                </div>
+                <h4 class="tp-process-title">
+                  Software Research
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur
+                  Malesuada sed diam aliquam tempor
+                  elementum at office
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 process-icon-container col-md-6 col-sm-6 cursor-view">
+            <div class="tp-process-item-wrapper p-relative mb-30 wow fadeInUp" data-wow-duration="1s"
+              data-wow-delay=".4s" style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.4s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-process-item-thumb">
+                <img src="./assets/process-img-2.jpg" alt="" />
+                <div class="tp-process-item-point bg-white">
+                  <h4 class="tp-process-item-point-number">
+                    02
+                  </h4>
+                </div>
+              </div>
+              <div class="tp-process-item-content text-center">
+                <div class="tp-process-item-content-icon">
+                  <span>
+                    <i class="fas fa-tower-cell"></i>
+                  </span>
+                </div>
+                <h4 class="tp-process-title">
+                  Research Network
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur
+                  Malesuada sed diam aliquam tempor
+                  elementum at office
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 process-icon-container col-md-6 col-sm-6 cursor-view">
+            <div class="tp-process-item-wrapper p-relative mb-30 wow fadeInUp" data-wow-duration="1s"
+              data-wow-delay=".6s" style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.6s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-process-item-thumb">
+                <img src="./assets/process-img-3.jpg" alt="" />
+                <div class="tp-process-item-point bg-white">
+                  <h4 class="tp-process-item-point-number">
+                    03
+                  </h4>
+                </div>
+              </div>
+              <div class="tp-process-item-content text-center">
+                <div class="tp-process-item-content-icon">
+                  <span>
+                    <i class="fas fa-cloud-arrow-up"></i>
+                  </span>
+                </div>
+                <h4 class="tp-process-title">
+                  Save Storage
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur
+                  Malesuada sed diam aliquam tempor
+                  elementum at office
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 process-icon-container col-md-6 col-sm-6 cursor-view">
+            <div class="tp-process-item-wrapper p-relative mb-30 wow fadeInUp" data-wow-duration="1s"
+              data-wow-delay=".8s" style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.8s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-process-item-thumb">
+                <img src="./assets/process-img-4.jpg" alt="" />
+                <div class="tp-process-item-point bg-white">
+                  <h4 class="tp-process-item-point-number">
+                    04
+                  </h4>
+                </div>
+              </div>
+              <div class="tp-process-item-content text-center">
+                <div class="tp-process-item-content-icon">
+                  <span>
+                    <i class="fas fa-phone"></i>
+                  </span>
+                </div>
+                <h4 class="tp-process-title">
+                  Software Develop
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur
+                  Malesuada sed diam aliquam tempor
+                  elementum at office
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- process section end -->
+
+    <!-- faq section start -->
+
+    <section class="tp-faq-area p-relative pt-70 pb-60" data-bg-color="#F4F5FA"
+      style="background-color: rgb(244, 245, 250)">
+      <div class="tp-faq-bg-img wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s"
+        data-background="assets/img/others/faq-img.jpg" style="
+                        background-image: url('./assets/faq-img.jpg');
+                        visibility: visible;
+                        animation-duration: 1s;
+                        animation-delay: 0.3s;
+                        animation-name: fadeInLeft;
+                    ">
+        <div class="tp-play-btn">
+          <a class="play-btn popup-video" href="https://www.youtube.com/watch?v=go7QYaQR494"><i
+              class="fa-solid fa-play"></i></a>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-6"></div>
+          <div class="col-xl-6 col-lg-6">
+            <div class="tp-faq-wrapper">
+              <div class="tp-faq-title-wrapper mb-40">
+                <span class="tp-section-title-pre">Some FAQ’s</span>
+                <h3 class="tp-section-title">
+                  Got something you need <br />
+                  help with?
+                </h3>
+              </div>
+              <div class="tp-faq-tab-content tp-accordion">
+                <div class="accordion" id="general_accordion">
+                  <div class="accordion-item tp-faq-active">
+                    <h2 class="accordion-header" id="headingOne">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        Many desktop publishing
+                        packages and web page ?
+                      </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                      data-bs-parent="#general_accordion">
+                      <div class="accordion-body">
+                        <p>
+                          It is a long established
+                          fact that a reader will
+                          be distrol acted bioiiy
+                          desig the rea dablea
+                          content of a page when
+                          looking at its layout
+                          this is Thoiie point of
+                          using.It is a long this
+                          established fact that a
+                          reader
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Contrary to popular Lorem
+                        Ipsum this item is not
+                        simply ?
+                      </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                      data-bs-parent="#general_accordion">
+                      <div class="accordion-body">
+                        <p>
+                          It is a long established
+                          fact that a reader will
+                          be distrol acted bioiiy
+                          desig the rea dablea
+                          content of a page when
+                          looking at its layout
+                          this is Thoiie point of
+                          using.It is a long this
+                          established fact that a
+                          reader
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Lorem Ipsum is simply ready
+                        to print print ingantype ?
+                      </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                      data-bs-parent="#general_accordion">
+                      <div class="accordion-body">
+                        <p>
+                          It is a long established
+                          fact that a reader will
+                          be distrol acted bioiiy
+                          desig the rea dablea
+                          content of a page when
+                          looking at its layout
+                          this is Thoiie point of
+                          using.It is a long this
+                          established fact that a
+                          reader
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- faq section end -->
+
+    <!-- blog section start -->
+
+    <section class="tp-blog-area pt-155 pb-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="tp-blog-title-wrapper text-center mb-60">
+              <span class="tp-section-title-pre">Latest News</span>
+              <h3 class="tp-section-title">
+                We cover a broad range of <br />
+                technologies and applications
+              </h3>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="tp-blog-item-wrapper mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.3s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-blog-item-thumb">
+                <a href="blog-details.html"><img src="./assets/blog-img-1.jpg" alt="" /></a>
+              </div>
+              <div class="tp-blog-item-content">
+                <div class="tp-blog-item-date">
+                  <span><i class="fa-regular fa-calendar-days"></i>
+                    11 january,2023</span>
+                </div>
+                <h4 class="tp-blog-title">
+                  <a href="blog-details.htm">This follows standard <br />
+                    Lorem design</a>
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit consectetur
+                  Malesua da sed diam in the aliquam
+                  tempor
+                </p>
+                <div class="tp-blog-item-content-btn">
+                  <a class="tp-blog-btn" href="blog-details.html">Read More
+                    <i class="fas fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="tp-blog-item-wrapper mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s" style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.5s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-blog-item-thumb">
+                <a href="blog-details.html"><img src="./assets/blog-img-2.jpg" alt="" /></a>
+              </div>
+              <div class="tp-blog-item-content">
+                <div class="tp-blog-item-date">
+                  <span><i class="fa-regular fa-calendar-days"></i>
+                    11 january,2023</span>
+                </div>
+                <h4 class="tp-blog-title">
+                  <a href="blog-details.html">Grab the standard <br />
+                    chunk today</a>
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit consectetur
+                  Malesua da sed diam in the aliquam
+                  tempor
+                </p>
+                <div class="tp-blog-item-content-btn">
+                  <a class="tp-blog-btn" href="blog-details.html">Read More
+                    <i class="fas fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="tp-blog-item-wrapper mb-30 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".7s" style="
+                                    visibility: visible;
+                                    animation-duration: 1s;
+                                    animation-delay: 0.7s;
+                                    animation-name: fadeInUp;
+                                ">
+              <div class="tp-blog-item-thumb">
+                <a href="blog-details.html"><img src="./assets/blog-img-3.jpg" alt="" /></a>
+              </div>
+              <div class="tp-blog-item-content">
+                <div class="tp-blog-item-date">
+                  <span><i class="fa-regular fa-calendar-days"></i>
+                    11 january,2023</span>
+                </div>
+                <h4 class="tp-blog-title">
+                  <a href="blog-detils.html">Discover our world of <br />
+                    business design</a>
+                </h4>
+                <p>
+                  Lorem ipsum dolor sit consectetur
+                  Malesua da sed diam in the aliquam
+                  tempor
+                </p>
+                <div class="tp-blog-item-content-btn">
+                  <a class="tp-blog-btn" href="blog-details.html">Read More
+                    <i class="fas fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog section end -->
+  </main>
+
+  <!-- footer section start -->
+
+  <footer class="tp-footer-area pt-80 p-relative z-index-1" data-bg-color="#0E1E2A"
+    style="background-color: rgb(14, 30, 42);">
+    <div class="tp-footer-bg" data-background="assets/img/footer/footer-bg.png"
+      style="background-image: url(&quot;./assets/footer-bg.png&quot;);"></div>
+    <div class="tp-footer-main-area tp-footer-border">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-4 col-md-6">
+            <div class="tp-footer-widget tp-footer-col-1 mb-50">
+              <div class="tp-footer-logo mb-20">
+                <a href="index.html"> <img src="./assets/logo.png" alt=""></a>
+              </div>
+              <div class="tp-footer-widget-content">
+                <p>Lorem Ipsum is simply is dumi in thi omy is text Loremo Ipsum is simply is out no our o dummy text.
+                </p>
+                <div class="tp-footer-input-email p-relative">
+                  <input type="text" placeholder="Your mail address">
+                  <button> <span><i class="fa-solid fa-paper-plane"></i></span></button>
+                </div>
+                <div class="tp-footer-widget-social">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                  <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-5 col-md-6">
+            <div class="tp-footer-widget tp-footer-col-2 mb-50">
+              <h3 class="tp-footer-widget-title">Popular Post</h3>
+              <div class="tp-footer-widget-content">
+                <div class="tp-footer-widget-item d-flex align-items-center mb-25">
+                  <div class="tp-footer-widget-item-thumb">
+                    <a href="blog-details.html"><img src="./assets/footer-img-1.jpg" alt=""></a>
+                  </div>
+                  <div class="tp-footer-widget-item-content">
+                    <span><i class="fa-regular fa-calendar-days"></i> 11 january,2023</span>
+                    <h4 class="tp-footer-widget-item-title"><a href="blog-details.html">Better it company way of <br>
+                        this world</a></h4>
+                  </div>
+                </div>
+                <div class="tp-footer-widget-item d-flex align-items-center">
+                  <div class="tp-footer-widget-item-thumb">
+                    <a href="blog-details.html"><img src="./assets/footer-img-2.jpg" alt=""></a>
+                  </div>
+                  <div class="tp-footer-widget-item-content">
+                    <span><i class="fa-regular fa-calendar-days"></i> 12 january,2023</span>
+                    <h4 class="tp-footer-widget-item-title"><a href="blog-details.html">Protect yourself and the <br>
+                        ones you will earn</a></h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-6">
+            <div class="tp-footer-widget tp-footer-col-3 mb-50">
+              <h3 class="tp-footer-widget-title">Free Links</h3>
+              <div class="tp-footer-widget-content">
+                <ul>
+                  <li><a href="#">Software Corner</a></li>
+                  <li><a href="#">Application center</a></li>
+                  <li><a href="#">Research Section</a></li>
+                  <li><a href="#">Developing corner </a></li>
+                  <li><a href="#">Computer section</a></li>
+                  <li><a href="#">Others </a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-5 col-md-6">
+            <div class="tp-footer-widget tp-footer-col-4 mb-50">
+              <h3 class="tp-footer-widget-title">Get in Touch</h3>
+              <div class="tp-footer-widget-content">
+                <div class="tp-footer-widget-contact d-flex align-items-center mb-25">
+                  <div class="tp-footer-widget-contact-icon">
+                    <span><i class="fa-solid fa-phone"></i></span>
+                  </div>
+                  <div class="tp-footer-widget-contact-content">
+                    <a href="tel:123456765">(+999) 123 456 765</a>
+                    <br>
+                    <a href="tel:123456765">(+999) 123 456 765</a>
+                  </div>
+                </div>
+                <div class="tp-footer-widget-contact d-flex align-items-center mb-25">
+                  <div class="tp-footer-widget-contact-icon">
+                    <span><i class="fa-solid fa-paper-plane"></i></span>
+                  </div>
+                  <div class="tp-footer-widget-contact-content">
+                    <a href="https://www.google.com/maps/search/The+Veg+Street,Usa/@35.7084279,-101.6897262,5z/data=!3m1!4b1"
+                      target="_blank">The Veg Street,Usa</a>
+                    <br>
+                    <a href="https://www.google.com/maps/search/The+Veg+Street,Usa/@35.7084279,-101.6897262,5z/data=!3m1!4b1"
+                      target="_blank">1212 Las vegas-3500</a>
+                  </div>
+                </div>
+                <div class="tp-footer-widget-contact d-flex align-items-center">
+                  <div class="tp-footer-widget-contact-icon">
+                    <span><i class="fa-solid fa-envelope"></i></span>
+                  </div>
+                  <div class="tp-footer-widget-contact-content">
+                    <a href="mailto:manaf@mail.com">Araf@mail.com</a>
+                    <br>
+                    <a href="mailto:manaf@mail.com">manaf@mail.com</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tp-footer-copyright-area p-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-lg-6">
+            <div class="tp-footer-copyright-inner">
+              <p>© Futurenet 2023 | All Rights Reserved</p>
+            </div>
+          </div>
+          <div class="col-md-12 col-lg-6">
+            <div class="tp-footer-copyright-inner text-lg-end">
+              <a href="#">Terms and conditions</a>
+              <a href="#"> Privacy policy</a>
+              <a href="#">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- footer section end -->
+
+  <!-- Js here -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+  crossorigin="anonymous"></script>
+
+  <!-- swiper -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
